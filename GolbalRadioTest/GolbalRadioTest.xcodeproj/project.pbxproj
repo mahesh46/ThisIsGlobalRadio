@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A6B77A1CA15CBE00FC5806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6B7791CA15CBE00FC5806 /* AppDelegate.swift */; };
+		C3A6B77C1CA15CBE00FC5806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6B77B1CA15CBE00FC5806 /* ViewController.swift */; };
+		C3A6B77F1CA15CBE00FC5806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6B77D1CA15CBE00FC5806 /* Main.storyboard */; };
+		C3A6B7811CA15CBE00FC5806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A6B7801CA15CBE00FC5806 /* Assets.xcassets */; };
+		C3A6B7841CA15CBE00FC5806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6B7821CA15CBE00FC5806 /* LaunchScreen.storyboard */; };
+		C3A6B78F1CA15CBE00FC5806 /* GolbalRadioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6B78E1CA15CBE00FC5806 /* GolbalRadioTestTests.swift */; };
+		C3A6B79A1CA15CBE00FC5806 /* GolbalRadioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6B7991CA15CBE00FC5806 /* GolbalRadioTestUITests.swift */; };
+		C3A6B7A81CA1766300FC5806 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6B7A71CA1766300FC5806 /* CustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3A6B78B1CA15CBE00FC5806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3A6B76E1CA15CBE00FC5806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A6B7751CA15CBE00FC5806;
+			remoteInfo = GolbalRadioTest;
+		};
+		C3A6B7961CA15CBE00FC5806 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3A6B76E1CA15CBE00FC5806 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A6B7751CA15CBE00FC5806;
+			remoteInfo = GolbalRadioTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3A6B7761CA15CBE00FC5806 /* GolbalRadioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolbalRadioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6B7791CA15CBE00FC5806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3A6B77B1CA15CBE00FC5806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3A6B77E1CA15CBE00FC5806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3A6B7801CA15CBE00FC5806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3A6B7831CA15CBE00FC5806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3A6B7851CA15CBE00FC5806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A6B78A1CA15CBE00FC5806 /* GolbalRadioTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolbalRadioTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6B78E1CA15CBE00FC5806 /* GolbalRadioTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolbalRadioTestTests.swift; sourceTree = "<group>"; };
+		C3A6B7901CA15CBE00FC5806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A6B7951CA15CBE00FC5806 /* GolbalRadioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolbalRadioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A6B7991CA15CBE00FC5806 /* GolbalRadioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolbalRadioTestUITests.swift; sourceTree = "<group>"; };
+		C3A6B79B1CA15CBE00FC5806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A6B7A71CA1766300FC5806 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A6B7731CA15CBE00FC5806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7871CA15CBE00FC5806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7921CA15CBE00FC5806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A6B76D1CA15CBE00FC5806 = {
+			isa = PBXGroup;
+			children = (
+				C3A6B7781CA15CBE00FC5806 /* GolbalRadioTest */,
+				C3A6B78D1CA15CBE00FC5806 /* GolbalRadioTestTests */,
+				C3A6B7981CA15CBE00FC5806 /* GolbalRadioTestUITests */,
+				C3A6B7771CA15CBE00FC5806 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A6B7771CA15CBE00FC5806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6B7761CA15CBE00FC5806 /* GolbalRadioTest.app */,
+				C3A6B78A1CA15CBE00FC5806 /* GolbalRadioTestTests.xctest */,
+				C3A6B7951CA15CBE00FC5806 /* GolbalRadioTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A6B7781CA15CBE00FC5806 /* GolbalRadioTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6B7791CA15CBE00FC5806 /* AppDelegate.swift */,
+				C3A6B77B1CA15CBE00FC5806 /* ViewController.swift */,
+				C3A6B7A71CA1766300FC5806 /* CustomView.swift */,
+				C3A6B77D1CA15CBE00FC5806 /* Main.storyboard */,
+				C3A6B7801CA15CBE00FC5806 /* Assets.xcassets */,
+				C3A6B7821CA15CBE00FC5806 /* LaunchScreen.storyboard */,
+				C3A6B7851CA15CBE00FC5806 /* Info.plist */,
+			);
+			path = GolbalRadioTest;
+			sourceTree = "<group>";
+		};
+		C3A6B78D1CA15CBE00FC5806 /* GolbalRadioTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6B78E1CA15CBE00FC5806 /* GolbalRadioTestTests.swift */,
+				C3A6B7901CA15CBE00FC5806 /* Info.plist */,
+			);
+			path = GolbalRadioTestTests;
+			sourceTree = "<group>";
+		};
+		C3A6B7981CA15CBE00FC5806 /* GolbalRadioTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3A6B7991CA15CBE00FC5806 /* GolbalRadioTestUITests.swift */,
+				C3A6B79B1CA15CBE00FC5806 /* Info.plist */,
+			);
+			path = GolbalRadioTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A6B7751CA15CBE00FC5806 /* GolbalRadioTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A6B79E1CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTest" */;
+			buildPhases = (
+				C3A6B7721CA15CBE00FC5806 /* Sources */,
+				C3A6B7731CA15CBE00FC5806 /* Frameworks */,
+				C3A6B7741CA15CBE00FC5806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolbalRadioTest;
+			productName = GolbalRadioTest;
+			productReference = C3A6B7761CA15CBE00FC5806 /* GolbalRadioTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3A6B7891CA15CBE00FC5806 /* GolbalRadioTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A6B7A11CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTestTests" */;
+			buildPhases = (
+				C3A6B7861CA15CBE00FC5806 /* Sources */,
+				C3A6B7871CA15CBE00FC5806 /* Frameworks */,
+				C3A6B7881CA15CBE00FC5806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A6B78C1CA15CBE00FC5806 /* PBXTargetDependency */,
+			);
+			name = GolbalRadioTestTests;
+			productName = GolbalRadioTestTests;
+			productReference = C3A6B78A1CA15CBE00FC5806 /* GolbalRadioTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3A6B7941CA15CBE00FC5806 /* GolbalRadioTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A6B7A41CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTestUITests" */;
+			buildPhases = (
+				C3A6B7911CA15CBE00FC5806 /* Sources */,
+				C3A6B7921CA15CBE00FC5806 /* Frameworks */,
+				C3A6B7931CA15CBE00FC5806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3A6B7971CA15CBE00FC5806 /* PBXTargetDependency */,
+			);
+			name = GolbalRadioTestUITests;
+			productName = GolbalRadioTestUITests;
+			productReference = C3A6B7951CA15CBE00FC5806 /* GolbalRadioTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A6B76E1CA15CBE00FC5806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "mahesh lad";
+				TargetAttributes = {
+					C3A6B7751CA15CBE00FC5806 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C3A6B7891CA15CBE00FC5806 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C3A6B7751CA15CBE00FC5806;
+					};
+					C3A6B7941CA15CBE00FC5806 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C3A6B7751CA15CBE00FC5806;
+					};
+				};
+			};
+			buildConfigurationList = C3A6B7711CA15CBE00FC5806 /* Build configuration list for PBXProject "GolbalRadioTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3A6B76D1CA15CBE00FC5806;
+			productRefGroup = C3A6B7771CA15CBE00FC5806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A6B7751CA15CBE00FC5806 /* GolbalRadioTest */,
+				C3A6B7891CA15CBE00FC5806 /* GolbalRadioTestTests */,
+				C3A6B7941CA15CBE00FC5806 /* GolbalRadioTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A6B7741CA15CBE00FC5806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6B7841CA15CBE00FC5806 /* LaunchScreen.storyboard in Resources */,
+				C3A6B7811CA15CBE00FC5806 /* Assets.xcassets in Resources */,
+				C3A6B77F1CA15CBE00FC5806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7881CA15CBE00FC5806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7931CA15CBE00FC5806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A6B7721CA15CBE00FC5806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6B7A81CA1766300FC5806 /* CustomView.swift in Sources */,
+				C3A6B77C1CA15CBE00FC5806 /* ViewController.swift in Sources */,
+				C3A6B77A1CA15CBE00FC5806 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7861CA15CBE00FC5806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6B78F1CA15CBE00FC5806 /* GolbalRadioTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3A6B7911CA15CBE00FC5806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A6B79A1CA15CBE00FC5806 /* GolbalRadioTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3A6B78C1CA15CBE00FC5806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A6B7751CA15CBE00FC5806 /* GolbalRadioTest */;
+			targetProxy = C3A6B78B1CA15CBE00FC5806 /* PBXContainerItemProxy */;
+		};
+		C3A6B7971CA15CBE00FC5806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3A6B7751CA15CBE00FC5806 /* GolbalRadioTest */;
+			targetProxy = C3A6B7961CA15CBE00FC5806 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3A6B77D1CA15CBE00FC5806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A6B77E1CA15CBE00FC5806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3A6B7821CA15CBE00FC5806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A6B7831CA15CBE00FC5806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3A6B79C1CA15CBF00FC5806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3A6B79D1CA15CBF00FC5806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3A6B79F1CA15CBF00FC5806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolbalRadioTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3A6B7A01CA15CBF00FC5806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GolbalRadioTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3A6B7A21CA15CBF00FC5806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GolbalRadioTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolbalRadioTest.app/GolbalRadioTest";
+			};
+			name = Debug;
+		};
+		C3A6B7A31CA15CBF00FC5806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GolbalRadioTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolbalRadioTest.app/GolbalRadioTest";
+			};
+			name = Release;
+		};
+		C3A6B7A51CA15CBF00FC5806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GolbalRadioTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GolbalRadioTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3A6B7A61CA15CBF00FC5806 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GolbalRadioTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ladtechnologies.GolbalRadioTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GolbalRadioTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A6B7711CA15CBE00FC5806 /* Build configuration list for PBXProject "GolbalRadioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6B79C1CA15CBF00FC5806 /* Debug */,
+				C3A6B79D1CA15CBF00FC5806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A6B79E1CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6B79F1CA15CBF00FC5806 /* Debug */,
+				C3A6B7A01CA15CBF00FC5806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A6B7A11CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6B7A21CA15CBF00FC5806 /* Debug */,
+				C3A6B7A31CA15CBF00FC5806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A6B7A41CA15CBF00FC5806 /* Build configuration list for PBXNativeTarget "GolbalRadioTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A6B7A51CA15CBF00FC5806 /* Debug */,
+				C3A6B7A61CA15CBF00FC5806 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A6B76E1CA15CBE00FC5806 /* Project object */;
+}
